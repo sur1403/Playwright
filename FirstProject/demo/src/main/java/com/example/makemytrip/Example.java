@@ -19,7 +19,6 @@ public class Example {
       page.getByText("Search").click();
       page.getByLabel("ToBKK, Bangkok Thailand").click();
       page.getByText("Mumbai, India").click();
-      page.getByLabel("Wed Jul 10").getByText("10").click();
       page.getByText("Search").click();
     }
   }
