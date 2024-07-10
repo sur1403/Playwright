@@ -13,9 +13,7 @@ public class Example {
       page.navigate("https://www.makemytrip.com/");
       page.getByLabel("FromDEL, Delhi Airport India").click();
       page.getByPlaceholder("From").dblclick();
-      page.getByText("Bangkok", new Page.GetByTextOptions().setExact(true)).click();
       page.getByText("BLR, Bengaluru International").click();
-      page.getByText("Bangkok, Thailand").click();
       page.getByText("Search").click();
       page.getByLabel("ToBKK, Bangkok Thailand").click();
       page.getByText("Mumbai, India").click();
